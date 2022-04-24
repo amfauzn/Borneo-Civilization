@@ -1,0 +1,160 @@
+
+game.png
+size: 2048, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Daru Jambangan
+  rotate: false
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kampong Ayer
+  rotate: false
+  xy: 652, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kedaton
+  rotate: false
+  xy: 760, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pepper
+  rotate: false
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pepper
+  rotate: false
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sulu Courthouse
+  rotate: false
+  xy: 1516, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Surau
+  rotate: false
+  xy: 1732, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yupa
+  rotate: false
+  xy: 1840, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Banjar
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Brunei
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kutai Kertanegara
+  rotate: false
+  xy: 976, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sultanate of Sulu
+  rotate: false
+  xy: 1408, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Aswamedha Horse
+  rotate: false
+  xy: 1948, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sulu Worker
+  rotate: false
+  xy: 1948, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Aswamedha Horse
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kutai Martadipura
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Garay
+  rotate: false
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kalasag
+  rotate: false
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Keris Bujak Beliung
+  rotate: false
+  xy: 868, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lonjo
+  rotate: false
+  xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mandau Dohong
+  rotate: false
+  xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sulu Worker
+  rotate: false
+  xy: 1624, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

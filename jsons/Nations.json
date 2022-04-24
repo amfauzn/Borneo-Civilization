@@ -1,0 +1,242 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+	
+	// Civilization
+	{
+		"name": "Kutai Martadipura",	/// 399 - 1635, First Hindu in Indonesia
+		"leaderName": "Mulawarman",
+		"adjective": ["Martadipuran"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Hinduism",
+
+		//"startIntroPart1": "May the blessings of heaven be upon you, O great Nebuchadnezzar, father of mighty and ancient Babylon! Young was the world when Sargon built Babylon some five thousand years ago, long did it grow and prosper, gaining its first empire the eighteenth century BC, under godlike Hammurabi, the giver of law. Although conquered by the Kassites and then by the Assyrians, Babylon endured, emerging phoenix-like from its ashes of destruction and regaining its independence despite its many enemies. Truly was Babylon the center of arts and learning in the ancient world. O Nebuchadnezzar, your empire endured but a short time after your death, falling to the mighty Persians, and then to the Greeks, until the great city was destroyed by 141 BC.",
+		//"startIntroPart2": "But is Babylon indeed gone forever, great Nebuchadnezzar? Your people look to you to bring the empire back to life once more. Will you accept the challenge? Will you build a civilization that will stand the test of time?",
+
+		"declaringWar": "Now we will see if you are cowards or warriors!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Mulawarman, King of Martadipura'. May there always be peace between us.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		"tradeRequest": "I present this 20000 cattle as gift. Are you a Brahmins?",
+
+		"outerColor": [238,201,9],
+		"innerColor": [ 53, 0,87],
+		"uniqueName": "Aswamedha",
+		"uniqueText": "+2 Food from every Cattle \n+1 Food, +1 Gold from every Farm adjacent To River \n-25% Culture cost of natural border growth in capital",
+		"uniques": ["[+2 Food] from every [Cattle]", "[-25]% Culture cost of natural border growth [in capital]", 
+			"[+1 Food, +1 Gold] from every [Farm] <with [1] to [6] neighboring [River] tiles>"],
+		"cities": ["Muara Kaman","Melintang","Pela","Muara Wis","Sabemban","Kahala","Kembang Janggut","Muara Bengkal","Lamin","Semayang",
+			"Tubuhan","Bingkai","Teluk Muda","Teluk Tuha","Lebak Cilong","Lebak Mantan","Muara Ancalong","Tabang","Long Mesangat","Pandan",
+			"Ampar","Rantau Pulung","Sangatta","Telen","Susang"]
+	},
+	{
+		"name": "Kutai Kertanegara",			// 1300 - 
+		"leaderName": "Sinum Panji",
+		"adjective": ["Kartanagaran"],
+		"startBias": ["Avoid [Desert]", "Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"favouredReligion": "Islam",
+
+		//"startIntroPart1": "The Blessings of Heaven be upon you. Empress Wu Zetian, most beautiful and haughty ruler of China! Oh great Empress, whose shadow causes the flowers to blossom and the rivers to flow! You are the leader of the Chinese, the oldest and the greatest civilization that humanity has ever produced. China's history stretches back into the mists of time, its people achieving many great things long before the other upstart civilizations were even conceived. China's contributions to the arts and sciences are too many and too wondrous to do justice to - the printing press, gunpowder, the works of Confucius - these are but a few of the gifts China has given to an undeserving world!",
+		//"startIntroPart2": "You, great Queen, who, with cunning and beauty, rose from the position of lowly concubine to that of Divine Empress - your people call out to you to lead them! Great China is once again beset on all sides by barbarians. Can you defeat all your many foes and return your country to greatness? Can you build a civilization to stand the test of time?",
+		
+		"declaringWar": "You have strayed from God's path, and now we will correct it.",
+		"attacked": "Do you really think you can walk over us so easily?",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "I am Aji Pangeran Sinum Panji. Kutai people honor me with respect. Will I see the same from you?",
+		
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "Kartanagaran send you gifts of greeting.",
+		
+		"outerColor": [251,236,127],
+		"innerColor": [146, 74,  1],
+		"uniqueName": "Kutai Unification",
+		"uniqueText": "+15% Production in capital \nGain a free Courthouse in annexed cities \nConquering a city grants Technology and Policy boost",
+		"uniques": ["Gain a free [Courthouse] [in annexed cities]", "[+15]% [Production] [in capital]", 
+			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately", 
+			"Upon capturing a city, receive [1] times its [Faith] production as [Culture] immediately", 
+			"Upon capturing a city, receive [2] times its [Science] production as [Science] immediately", 
+			"Upon capturing a city, receive [1] times its [Production] production as [Science] immediately"],
+		"cities": ["Kutai Lama","Pemarangan","Tenggarong","Anggana","Sanga-Sanga","Muara Badak","Muara Jawa","Samboja","Loa Janan","Loa Kulu",
+			"Tenggarong Seberang","Marang Kayu","Sebulu","Mardipura","Mahakam","Belayan","Semayang","Muara Muntai","Menamang"]
+	},
+	{
+		"name": "Brunei",			// 1368 - 1888
+		"leaderName": "Bolkiah",
+		"adjective": ["Bruneian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Diplomatic",
+		"favoredReligion": "Islam",
+
+		//"startIntroPart1": "May the blessings of the gods be upon you, oh great King Alexander! You are the ruler of the mighty Greek nation. Your people lived for so many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, tragedy, art and architecture, the very foundation of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.",
+		//"startIntroPart2": "Alexander, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny, King Alexander? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?",
+
+		"declaringWar": "You deserve nothing less than war, but in my abundant mercy, I will make it brief and decisive.",
+		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
+		"defeated": "We resisted to the last, but it was too late … too late.",
+		"introduction": "Hello stranger! I am Bolkiah, Sultan of Brunei!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		"tradeRequest": "We are happy to offer this trade with you.",
+
+		"outerColor": [  7,  0, 54],
+		"innerColor": [225,225,225],
+		"uniqueName": "Thalassocracy",
+		"uniques": ["[+1 Gold] from every [Water resource]", "[+10]% Strength <for [Water] units>"],
+		"cities": ["Bandar Brunei","Kota Baru","Kampung Ayer","Tutong","Labu","Bangar","Seria","Kaula Belait","Batu Apoi","Sukang",
+			"Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-As","Butuan","Lanao",
+			"Dapitan","Badas","Lapi"]
+	},
+	{
+		"name": "Sultanate of Sulu",			// 1405 - 1915
+		"leaderName": "Jamalul Kiram I",
+		"adjective": ["Suluette"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Islam",
+
+		//"startIntroPart1": "We greet thee, oh great Ramesses, Pharaoh of Egypt, who causes the sun to rise and the Nile to flow, and who blesses his fortunate people with all the good things of life! Oh great lord, from time immemorial your people lived on the banks of the Nile river, where they brought writing to the world, and advanced mathematics, sculpture, and architecture. Thousands of years ago they created the great monuments which still stand tall and proud.",
+		//"startIntroPart2": "Oh, Ramesses, for uncounted years your people endured, as other petty nations around them have risen and then fallen into dust. They look to you to lead them once more into greatness. Can you honor the gods and bring Egypt back to her rightful place at the very center of the world? Can you build a civilization that will stand the test of time?",
+
+		"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
+		"attacked": "I will not allow you to remain in power any longer. You have offended me for too long!",
+		"defeated": "With God's help, may Sulu people one day reclaim its territory.",
+		"introduction": "I am Jamulul Kiram, Sultan of Sulu. It is my great pleasure to finally meet you.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Better hurry, I may change my mind.",
+
+		"outerColor": [ 52, 14, 32],
+		"innerColor": [225,225,225],
+		"uniqueName": "Moro Raids",
+		"uniqueText": "Gain a free Worker whenever Courthouse is constructed \nMay sell Worker for 100 Gold",
+		"cities": ["Bansa","Maimbung","Palawan","Moroland","Sandakan","kudat","Lahad Datu","Tawau","Semporna",
+			   "Tawi-tawi","Jolo","Basilan","Zamboanga","Indanan","Pangutaran","Parang","Patikul","Talipao","Mactan"]
+	},
+	{
+		"name": "Banjar",						// 1520 - 1905
+		"leaderName": "Hidayatullah I",
+		"adjective": ["Banjarette"],
+		"startBias":["Avoid [Tundra]"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Islam",
+
+		//"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single-handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
+		//"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Rome once again center of the world? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed.",
+		"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
+		"defeated": "May God grant me these last wishes -- peace and prosperity for Brazil.",
+		"introduction": "May God bless us, I am Sultan Hidayatullah of Banjar.",
+		
+		"neutralHello": "Salam.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I offer this, for your consideration.",
+		
+		"outerColor": [255,215,0],
+		"innerColor": [  0,  0,0],
+		"uniqueName": "Spice Tribute",
+		"uniqueText": "Capital provides 3 copies of Pepper \nAllied City-States provide Gold equal to 20% of what they produce for themselves \n+100% Gold from Great Merchant trade missions",
+		"uniques": ["Allied City-States provide [Gold] equal to [20]% of what they produce for themselves", 
+			"[+100]% Gold from Great Merchant trade missions", "New [Keris Bujak Beliung] units start with [10] Experience [in all cities]"],
+		"cities": ["Kuin","Banjarmasin","Pemakuan","Muara Tambangan","Sambas","Lawai","Sukadana","Kotawaringin","Pembuang","Mendawai",
+			"Sampit","Kahayan Hilir","Kahayan Hulu","Satui","Pasir","Pulau Laut","Asam Asam","Kintap","Swarangan","Kutai"]
+	},
+	
+	
+	/*{
+		"name": "Bangkalaan",
+		"leaderName": "Elizabeth",
+		"adjective": ["English"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Praises upon her serene highness, Queen Elizabeth Gloriana. You lead and protect the celebrated maritime nation of England. England is an ancient land, settled as early as 35,000 years ago. The island has seen countless waves of invaders, each in turn becoming a part of the fabric of the people. Although England is a small island, for many years your people dominated the world stage. Their matchless navy, brilliant artists and shrewd merchants, giving them power and influence far in excess of their mere numbers.",
+		"startIntroPart2": "Queen Elizabeth, will you bring about a new golden age for the English people? They look to you once more to return peace and prosperity to the nation. Will you take up the mantle of greatness? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "By the grace of God, your days are numbered.",
+		"attacked": "We shall never surrender.",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"introduction": "We are pleased to meet you.",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "Would you be interested in a trade agreement with England?",
+		"outerColor": [ 114, 0, 0],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Sun Never Sets",
+		"uniques": ["Allied City-States provide [Gold] equal to [10]% of what they produce for themselves", 
+			"[+15]% Strength <for [Water] units>"],
+		"uniques": ["[+2] Movement <for [Water] units>"],
+		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
+	},
+	{
+		"name": "Berau",
+		"leaderName": "Napoleon",
+		"adjective": ["French"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of France, Napoleon I, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
+		"startIntroPart2": "Napoleon Bonaparte, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Emperor, will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "You've fallen into my trap. I'll bury you.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "France offers you this exceptional proposition.",
+		"outerColor": [ 38, 98, 255],
+		"innerColor": [239,236,148],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Ancien Régime",
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
+	},
+	{
+		"name": "Menungul", 
+		"leaderName": "Catherine",
+		"adjective": ["Russian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Greetings upon thee, Your Imperial Majesty Catherine, wondrous Empress of all the Russias. At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
+		"startIntroPart2": "Catherine, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [ 236, 178, 0],
+		"innerColor": [0,0,0],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Siberian Riches",
+		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
+			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
+		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
+	},
+	*/
+
+	// City-States sorted by cityStateType, name
+	// Amuntai,Daha, Gagelang, Pundak Sategal, Pandan Arum, etc
+]
