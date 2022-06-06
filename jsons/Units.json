@@ -17,7 +17,7 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"requiredResource": "Horses",
-		"uniques": ["Bonus for units in 2 tile radius 15%", "Limited to [1] per Civilization"],
+		"uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles", "Limited to [1] per Civilization"],
 	},
 	{
 		"name": "Lonjo",
@@ -35,7 +35,7 @@
 	},
 	{
 		"name": "Kalasag",
-		"unitType": "Armored",
+		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Brunei",
 		"movement": 2,
@@ -44,7 +44,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["[-15]% Strength <when attacking>", "[+20]% Strength <when defending>"],
+		"uniques": ["[-10]% Strength <when attacking>", "[+15]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -93,6 +93,36 @@
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I","Boarding Party I","Boarding Party II"],
 		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "The Royalist",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Serawak",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 40,
+		"cost": 280,
+		"requiredResource": "Coal",
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Battleship",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "The Rajah Brooke",
+		"unitType": "Melee Water",
+		"replaces": "Ironclad",
+		"uniqueTo": "Serawak",
+		"movement": 3,
+		"strength": 48,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Destroyer",
+		"requiredResource": "Coal",
+		"promotions": ["Boarding Party I"],
+		"uniques": ["[+33]% Strength <vs cities>", "Double movement in [Coast]"],
 		"attackSound": "cannon"
 	},
 ]

@@ -49,12 +49,11 @@
 		"uniqueTo": "Banjar",
 		"cost": 90,
 		"faith": 3,
-		"culture": 1,
 		"requiredBuilding": "Shrine",
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["[+1 Culture] [in this city] <after discovering [Archaeology]>", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Yupa",
